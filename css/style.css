@@ -172,12 +172,16 @@ border-radius: 8px;
     display: inline-block;
     margin-right: 412px;
 }
+
 .menu-header__item {
-    
     display: inline-block;
     line-height: 157%;
-    margin-right: 30px;
     
+    
+}
+
+.menu-header__item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .menu-header__link {
@@ -391,10 +395,14 @@ color: #F5F5F5;
 
 .our-promise-to-you__item {
     padding-left: 70px;
-    margin-right: 13px;
+    
     position: relative;
     max-width: 324px;
     display: inline-block;
+}
+
+.our-promise-to-you__item:not(:last-child) {
+    margin-right: 13px;
 }
 
 .our-promise-to-you__item::before {
